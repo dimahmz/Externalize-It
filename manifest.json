@@ -1,0 +1,13 @@
+{
+  "name": "External links",
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "A browser extension that empowers users to open any link on a webpage externally",
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["services/index.js"]
+    }
+  ]
+}
