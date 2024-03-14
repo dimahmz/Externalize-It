@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.feature {
+  margin: 20px 0px;
+}
+
+#popup {
+  padding: 10px 15px;
+  width: 150px;
+  background-color: #36373a;
+  color: #f1f3f4;
+}
